@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:tailwind": "tailwind build src/style.css -o public/style.css"
+    "build:tailwind": "tailwind build -i src/style.css -o public/style.css"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "commitizen": "^4.2.4",
+    "global": "^4.4.0",
     "tailwindcss": "^2.2.4"
   }
 }
